@@ -92,3 +92,104 @@ body::before {
     margin-top:  -2px;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+    color: var(--text);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: var(--pink);
+}
+
+.sign-in {
+    padding: 5px 9px;
+    border: 1px solid var(--line);
+    transform: rotate(-1deg);
+}
+
+.hero {
+    position: relative;
+    width: min(850px, 90vw);
+    margin: 0 auto;
+    padding: 85px 0 100px;
+    text-align: center;
+}
+
+.welcome {
+    display: inline-block;
+    color: var(--pink);
+    font-size: 15px;
+    margin-bottom: 25px;
+    transform: rotate(-2deg);
+}
+
+h1 {
+    font-size: clamp(60px, 10vw, 105px);
+    line-height: .78;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+h1 span {
+    color: var(--pink);
+    position: relative;
+}
+
+h1 span::after {
+    content: "";
+    position: absolute;
+    left: 2px;
+    right: -5px;
+    bottom: -5px;
+    height: 3px;
+    background: var(--pink);
+    transform: rotate(-1deg);
+}
+
+.hero-text {
+    margin-top: 30px;
+    color: var(--muted);
+    font-size: 17px;
+    line-height: 1.2;
+}
+
+.mission {
+    margin-top: 55px;
+    color: var(--muted);
+    font-size: 17px;
+    line-height: 1.4;
+}
+
+.little-note {
+    position: absolute;
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.1;
+    text-align: left;
+}
+
+.little-note span {
+    display: block;
+    color: var(--pink);
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+.note-one {
+    left: -20px;
+    top: 430px;
+    transform: rotate(-5deg);
+}
+
+.note-two {
+    right: -15px;
+    top: 290px;
+    transform: rotate(4deg);
+}
