@@ -116,18 +116,10 @@ nav a:hover {
 
 .hero {
     position: relative;
-    width: min(850px, 90vw);
+    width: min(1000px, 92vw);
     margin: 0 auto;
-    padding: 85px 0 100px;
-    text-align: center;
-}
-
-.welcome {
-    display: inline-block;
-    color: var(--pink);
-    font-size: 15px;
-    margin-bottom: 25px;
-    transform: rotate(-2deg);
+    padding: 70px 20px 100px;
+    text-align: left;
 }
 
 h1 {
@@ -157,7 +149,7 @@ h1 span::after {
     margin-top: 30px;
     color: var(--muted);
     font-size: 17px;
-    line-height: 1.2;
+    line-height: 1.6;
 }
 
 .mission {
@@ -192,4 +184,61 @@ h1 span::after {
     right: -15px;
     top: 290px;
     transform: rotate(4deg);
+}
+
+.how-it-works Z{
+    width: 100%;
+    max-width: 960px;
+    margin: 180px auto 100px;
+    padding: 0 20px;
+}
+
+.section-heading {
+    margin-bottom: 45px;
+}
+
+.section-heading {
+    margin-bottom: 45px;
+}
+
+.section-heading span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.section-heading p {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.step {
+    flex: 1;
+    position: relative;
+    padding-top: 12px;
+    border-top: 1px solid #111;
+}
+
+.step-number {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.step-h3 {
+    font-size: 22px;
+    margin: 0 0 12px;
+    font-weight: normal;
+}
+
+.step p {
+    font-size: 13px;
+    line-height: 1.5;
+    max-width: 220px;
+    margin: 0;
 }
